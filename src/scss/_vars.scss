@@ -1,0 +1,18 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Lora" , sans-serif;
+  --content-width: 1600px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --dark: #002b45;
+  --grey: #fff;
+  --light: #fbf6ef;
+  --more: #001623;
+  --light-magenta-color: #f06666;
+  --hover-bnt : #015b91;
+  --active-btn: #011a2a;
+}

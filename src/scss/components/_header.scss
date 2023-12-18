@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--dark);
+
+  &__wrap {
+    padding: 36px 0;
+    padding-left: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grey);
+  }
+
+  &__logo-link {
+    width: 177px;
+    height: 53.184px;
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,55 @@
+@mixin btn-hfa-orangefill {
+  outline-offset: -3px;
+  outline: 3px solid transparent;
+  transition: outline-color .5s ease, background-color .5s ease-in-out;
+
+  &:focus-visible {
+    outline-color: var(--dark-orange-color);
+  }
+
+  &:hover {
+    outline-color: transparent;
+    background-color: var(--orange-color);
+  }
+
+  &:active {
+    background-color: var(--dark-orange-color);
+    outline-color: transparent;
+  }
+}
+
+@mixin btn-orange {
+  outline: none;
+  transition: background-color .5s ease-in-out, border-color .5s ease-in-out;
+
+  &:focus-visible {
+    background-color: var(--orange-color);
+  }
+
+  &:hover {
+    background-color: var(--light-orange-color);
+  }
+
+  &:active {
+    background-color: var(--dark-orange-color);
+    border-color: var(--dark-orange-color);
+  }
+}
+
+@mixin form-hfa {
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+  transition: outline-color .5s ease-in-out;
+
+  &:focus-visible {
+    outline-color: var(--light-orange-color);
+  }
+
+  &:hover::placeholder {
+    color: var(--light-orange-color);
+  }
+
+  &:active {
+    outline-color: transparent;
+  }
+}

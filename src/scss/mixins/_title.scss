@@ -1,0 +1,10 @@
+@mixin main-title {
+  font-family: "TTFirsNeue", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+
+  @media (max-width: (640px)) {
+    font-size: 18px;
+    line-height: normal;
+  }
+}
