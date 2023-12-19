@@ -7,7 +7,212 @@
   <div class="site-container">
     @include('partials/header.html')
     <main class="main">
-
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Изготовим роскошную дизайнерскую кухню</h1>
+          <p class="hero__subtitle">
+            <span>Цена на 12-24% ниже,</span>
+            чем у посредников
+          </p>
+          <p class="hero__calc">Рассчитаем стоимость кухни-мечты</p>
+          <button class="hero__calc-btn btn-reset">заказать расчет</button>
+        </div>
+      </section>
+      <section class="advant">
+        <div class="container">
+          <h2 class="advant__title">Наши преимущества</h2>
+          <div class="advant__wrapper">
+            <div class="advant__card card card--kitchen">
+              <p class="card__title">С 2000 г на рынке</p>
+              <p class="card__descr">Наши кухни выбрали 10 000+ семей</p>
+            </div>
+            <div class="advant__card card card--date">
+              <p class="card__title">Сжатые сроки</p>
+              <p class="card__descr">изготовление кухни от 20 дней</p>
+            </div>
+            <div class="advant__card card card--design">
+              <p class="card__title">Дизайн проект</p>
+              <p class="card__descr">бесплатно за 30 минут</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works">
+        <div class="container">
+          <h2 class="works__title">Посмотрите наши работы</h2>
+          <div class="works__filter"></div>
+          <ul class="works__wrapper cards">
+            <li class="cards__item card">
+              <h3 class="card__title">Кухня 097 минимализм</h3>
+              <p class="card__descr">Угловая белая кухня со столешницей под бетон.</p>
+              <div class="card__prices prices">
+                <div class="prices__type">
+                  <h4 class="prices__title">Эконом</h4>
+                  <p class="prices__count">168 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Стандарт</h4>
+                    <p class="prices__count">217 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Премиум</h4>
+                  <p class="prices__count">270 000 р.</p>
+                </div>
+              </div>
+              <p class="card__lenght"><span>Длина кухни:</span> 4900 мм</p>
+              <div class="card__controls">
+                <button class="card__btn-more btn-reset">подробнее</button>
+                <button class="card__btn-counting btn-reset">расчет стоимости</button>
+              </div>
+              <div class="card__images">
+                <img class="card__main-img" src="img/card-img.webp" alt="Фотограффия проекта кухни.">
+                <div class="card__carusel carusel">
+                  <div class="carusel__controls">
+                    <p class="carusel__number"><span class="active">01</span>10</p>
+                    <div class="carusel__arrows">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M4.68829 0.557057L2.34784 3.10586L19.9255 3.10586L19.9255 3.89414L2.34784 3.89414L4.68829 6.44294L4.17677 7L0.962872 3.5L4.17677 2.27616e-07L4.68829 0.557057Z" fill="white"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M16.0591 0.557057L18.3996 3.10586L0.82196 3.10586L0.82196 3.89414L18.3996 3.89414L16.0591 6.44294L16.5707 7L19.7846 3.5L16.5707 2.27616e-07L16.0591 0.557057Z" fill="white"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                </div>
+              </div>
+            </li>
+            <li class="cards__item card">
+              <h3 class="card__title">Кухня 097 минимализм</h3>
+              <p class="card__descr">Угловая белая кухня со столешницей под бетон.</p>
+              <div class="card__prices prices">
+                <div class="prices__type">
+                  <h4 class="prices__title">Эконом</h4>
+                  <p class="prices__count">168 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Стандарт</h4>
+                    <p class="prices__count">217 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Премиум</h4>
+                  <p class="prices__count">270 000 р.</p>
+                </div>
+              </div>
+              <p class="card__lenght"><span>Длина кухни:</span> 4900 мм</p>
+              <div class="card__controls">
+                <button class="card__btn-more btn-reset">подробнее</button>
+                <button class="card__btn-counting btn-reset">расчет стоимости</button>
+              </div>
+              <div class="card__images">
+                <img class="card__main-img" src="img/card-img.webp" alt="Фотограффия проекта кухни.">
+                <div class="card__carusel carusel">
+                  <div class="carusel__controls">
+                    <p class="carusel__number"><span class="active">01</span>10</p>
+                    <div class="carusel__arrows">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M4.68829 0.557057L2.34784 3.10586L19.9255 3.10586L19.9255 3.89414L2.34784 3.89414L4.68829 6.44294L4.17677 7L0.962872 3.5L4.17677 2.27616e-07L4.68829 0.557057Z" fill="white"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M16.0591 0.557057L18.3996 3.10586L0.82196 3.10586L0.82196 3.89414L18.3996 3.89414L16.0591 6.44294L16.5707 7L19.7846 3.5L16.5707 2.27616e-07L16.0591 0.557057Z" fill="white"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                </div>
+              </div>
+            </li>
+            <li class="cards__item card">
+              <h3 class="card__title">Кухня 097 минимализм</h3>
+              <p class="card__descr">Угловая белая кухня со столешницей под бетон.</p>
+              <div class="card__prices prices">
+                <div class="prices__type">
+                  <h4 class="prices__title">Эконом</h4>
+                  <p class="prices__count">168 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Стандарт</h4>
+                    <p class="prices__count">217 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Премиум</h4>
+                  <p class="prices__count">270 000 р.</p>
+                </div>
+              </div>
+              <p class="card__lenght"><span>Длина кухни:</span> 4900 мм</p>
+              <div class="card__controls">
+                <button class="card__btn-more btn-reset">подробнее</button>
+                <button class="card__btn-counting btn-reset">расчет стоимости</button>
+              </div>
+              <div class="card__images">
+                <img class="card__main-img" src="img/card-img.webp" alt="Фотограффия проекта кухни.">
+                <div class="card__carusel carusel">
+                  <div class="carusel__controls">
+                    <p class="carusel__number"><span class="active">01</span>10</p>
+                    <div class="carusel__arrows">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M4.68829 0.557057L2.34784 3.10586L19.9255 3.10586L19.9255 3.89414L2.34784 3.89414L4.68829 6.44294L4.17677 7L0.962872 3.5L4.17677 2.27616e-07L4.68829 0.557057Z" fill="white"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M16.0591 0.557057L18.3996 3.10586L0.82196 3.10586L0.82196 3.89414L18.3996 3.89414L16.0591 6.44294L16.5707 7L19.7846 3.5L16.5707 2.27616e-07L16.0591 0.557057Z" fill="white"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                </div>
+              </div>
+            </li>
+            <li class="cards__item card">
+              <h3 class="card__title">Кухня 097 минимализм</h3>
+              <p class="card__descr">Угловая белая кухня со столешницей под бетон.</p>
+              <div class="card__prices prices">
+                <div class="prices__type">
+                  <h4 class="prices__title">Эконом</h4>
+                  <p class="prices__count">168 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Стандарт</h4>
+                    <p class="prices__count">217 000 р.</p>
+                </div>
+                <div class="prices__type">
+                  <h4 class="prices__title">Премиум</h4>
+                  <p class="prices__count">270 000 р.</p>
+                </div>
+              </div>
+              <p class="card__lenght"><span>Длина кухни:</span> 4900 мм</p>
+              <div class="card__controls">
+                <button class="card__btn-more btn-reset">подробнее</button>
+                <button class="card__btn-counting btn-reset">расчет стоимости</button>
+              </div>
+              <div class="card__images">
+                <img class="card__main-img" src="img/card-img.webp" alt="Фотограффия проекта кухни.">
+                <div class="card__carusel carusel">
+                  <div class="carusel__controls">
+                    <p class="carusel__number"><span class="active">01</span>10</p>
+                    <div class="carusel__arrows">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M4.68829 0.557057L2.34784 3.10586L19.9255 3.10586L19.9255 3.89414L2.34784 3.89414L4.68829 6.44294L4.17677 7L0.962872 3.5L4.17677 2.27616e-07L4.68829 0.557057Z" fill="white"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 7" fill="none">
+                        <path d="M16.0591 0.557057L18.3996 3.10586L0.82196 3.10586L0.82196 3.89414L18.3996 3.89414L16.0591 6.44294L16.5707 7L19.7846 3.5L16.5707 2.27616e-07L16.0591 0.557057Z" fill="white"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                  <img class="carusel__mini-img" src="img/card-img.webp" alt="Фотограффия проекта кухни">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     @include('partials/footer.html')
   </div>

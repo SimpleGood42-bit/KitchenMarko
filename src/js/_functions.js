@@ -20,7 +20,7 @@ import { mobileCheck } from "./functions/mobile-check";
 // import './functions/fix-fullheight';
 
 // Реализация бургер-меню
-import { burger } from './functions/burger';
+// import { burger } from './functions/burger';
 
 // Реализация остановки скролла (не забудьте вызвать функцию)
 // import { disableScroll } from './functions/disable-scroll';
@@ -76,7 +76,7 @@ import { burger } from './functions/burger';
 // });
 
 import { validateForms } from './functions/validate-forms';
- const rules1 = [
+const rules1 = [
   {
     ruleSelector: '.input-name',
     rules: [
@@ -133,8 +133,5 @@ const rules2 = [
       }
     ]
   }
-]
-
-validateForms('.feedback__form', rules1);
-validateForms('.mailing__form', rules2);
+];
 

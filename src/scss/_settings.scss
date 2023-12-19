@@ -37,6 +37,12 @@ h1,h2,h3,h4,h5,p {
   padding: 0;
 }
 
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .site-container {
   overflow: hidden;
 }
@@ -86,7 +92,7 @@ h1,h2,h3,h4,h5,p {
 
 .container {
   margin: 0 auto;
-  padding: 0 var(--container-offset);
+  padding: 0 var(--container-offset) 0 calc(var(--container-offset) + 7px);
   max-width: var(--container-width);
 }
 
